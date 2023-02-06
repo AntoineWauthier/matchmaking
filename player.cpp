@@ -1,8 +1,7 @@
 class Player{
   public:
-  
   void set_username(string name){
-    username = name
+    username = name;
   }
   string get_username(){
     return username;
@@ -13,7 +12,7 @@ class Player{
   int get_rank(){
     return rank;
   }
-   
+  
   private:
     string username;
     int rank;
